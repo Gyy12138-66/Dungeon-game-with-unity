@@ -1,0 +1,4 @@
+repository "地牢游戏1@guoyuy@cloud.cn"
+  path "/"
+    br "/main"
+    co "/main"
