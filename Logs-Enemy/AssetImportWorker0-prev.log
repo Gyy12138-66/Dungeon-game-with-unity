@@ -1,0 +1,699 @@
+Using pre-set license
+Built from '2021.3/china_unity/release' branch; Version is '2021.3.20f1c1 (7cf0fbd73406) revision 8188155'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 20359 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\unity\2021.3.20f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/unity/地牢游戏
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49499
+Successfully changed project path to: D:/unity/地牢游戏
+D:/unity/地牢游戏
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [46052] Host "[IP] 10.33.133.87 [Port] 0 [Flags] 2 [Guid] 607386204 [EditorId] 607386204 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-5FIOFFGF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [46052] Host "[IP] 10.33.133.87 [Port] 0 [Flags] 2 [Guid] 607386204 [EditorId] 607386204 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-5FIOFFGF) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+AS: AutoStreaming module initializing.
+Refreshing native plugins compatible for Editor in 323.66 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.20f1c1 (7cf0fbd73406)
+[Subsystems] Discovering subsystems at path D:/unity/2021.3.20f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/unity/地牢游戏/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce MX110 (ID=0x174e)
+    Vendor:   NVIDIA
+    VRAM:     2010 MB
+    Driver:   27.21.14.5749
+Initialize mono
+Mono path[0] = 'D:/unity/2021.3.20f1c1/Editor/Data/Managed'
+Mono path[1] = 'D:/unity/2021.3.20f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/unity/2021.3.20f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56456
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/unity/2021.3.20f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.031095 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 246.08 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.239 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2240ms)
+		BeginReloadAssembly (567ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1251ms)
+			LoadAssemblies (429ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (291ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (644ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (246ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (230ms)
+				ProcessInitializeOnLoadMethodAttributes (142ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.078885 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\unity\地牢游戏\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\unity\地牢游戏\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 198.51 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.270 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3276ms)
+		BeginReloadAssembly (625ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (19ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (2254ms)
+			LoadAssemblies (608ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (503ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (87ms)
+			SetupLoadedEditorAssemblies (1194ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (199ms)
+				BeforeProcessingInitializeOnLoad (260ms)
+				ProcessInitializeOnLoadAttributes (616ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (60ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.23 seconds
+Refreshing native plugins compatible for Editor in 1.78 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3736 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (229.4 KB). Loaded Objects now: 4190.
+Memory consumption went from 147.9 MB to 147.7 MB.
+Total: 5.111400 ms (FindLiveObjects: 0.408600 ms CreateObjectMapping: 0.384600 ms MarkObjects: 4.092900 ms  DeleteObjects: 0.223800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 877754.529590 seconds.
+  path: Assets/Tilesets/Dungeon/statue_triangle.asset
+  artifactKey: Guid(0594fc86b0f77f14b997548a1d593786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon/statue_triangle.asset using Guid(0594fc86b0f77f14b997548a1d593786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99c311a28d75d3cdbc8ddbcfcf3b6f30') in 0.134688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Tilesets/Dungeon/cobble_blood_1_new.asset
+  artifactKey: Guid(c74474e62735d744db2b341588d1f89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon/cobble_blood_1_new.asset using Guid(c74474e62735d744db2b341588d1f89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd34a48d75532680730be55189c5375c5') in 0.029437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Tilesets/Dungeon/grey_dirt_3_new.asset
+  artifactKey: Guid(19b6afbcf9b2180418b2fdf4c2f63e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon/grey_dirt_3_new.asset using Guid(19b6afbcf9b2180418b2fdf4c2f63e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7daa096eeb8143e75545f3e6e96655d') in 0.020596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Tilesets/Dungeon/statue_princess.asset
+  artifactKey: Guid(6c6df14da60586245a2b4cc11b9a791c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon/statue_princess.asset using Guid(6c6df14da60586245a2b4cc11b9a791c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3835a65afb6548002b8cd42d0f5e1702') in 0.016699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Tilesets/Dungeon/statue_sword.asset
+  artifactKey: Guid(8842773e598a2b840ad475e96960d498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon/statue_sword.asset using Guid(8842773e598a2b840ad475e96960d498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '326f01c30a52e10ed4e34bc6c6435532') in 0.036621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tilesets/Dungeon/cobble_blood_2_new.asset
+  artifactKey: Guid(64ce806923913fd438c468696393a4e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon/cobble_blood_2_new.asset using Guid(64ce806923913fd438c468696393a4e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aa9cb1f42896b6a06c2bf7b99ec1117') in 0.013249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Tilesets/Dungeon/brick_gray_0.asset
+  artifactKey: Guid(6d26ffb368ad1a845ae989d8626b5ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon/brick_gray_0.asset using Guid(6d26ffb368ad1a845ae989d8626b5ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9488211e4f50df238afbc2883a07acf') in 0.019908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Packages/com.unity.2d.animation/package.json
+  artifactKey: Guid(9e83c20a8293f44ec8a375d3805f477d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/package.json using Guid(9e83c20a8293f44ec8a375d3805f477d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2c465428aaf89145daf7ec747b5e860') in 0.047690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Tilesets/Dungeon/stone_brick_3.asset
+  artifactKey: Guid(4f6e75cf879e72c42aba9644cbe2b8b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon/stone_brick_3.asset using Guid(4f6e75cf879e72c42aba9644cbe2b8b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08228d94db9d36a9cbaec2c0ef8100d6') in 0.032578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Tilesets/Dungeon/lab-rock_1.asset
+  artifactKey: Guid(024f7729a2bb54e4688cc01b177a6215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon/lab-rock_1.asset using Guid(024f7729a2bb54e4688cc01b177a6215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1689708a081ccc15d282df1fe138d162') in 0.015105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Tilesets/Dungeon/grey_dirt_0_old.asset
+  artifactKey: Guid(f6e21c94079ff0e419b5ac7f5165b7fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon/grey_dirt_0_old.asset using Guid(f6e21c94079ff0e419b5ac7f5165b7fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c8b1294bd0e81d3c5db4591c4a9342') in 0.018438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tilesets/Dungeon/lab-rock_0.asset
+  artifactKey: Guid(bbf70a1f447993e4eabf0b88d20982b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon/lab-rock_0.asset using Guid(bbf70a1f447993e4eabf0b88d20982b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '381d0205a29b72d58061f0299063dbb0') in 0.033488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Tilesets/Dungeon/cobble_blood_3_new.asset
+  artifactKey: Guid(d11d4c0780460b4408d5285a03bf0e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon/cobble_blood_3_new.asset using Guid(d11d4c0780460b4408d5285a03bf0e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93ebd2c1a6651f6d071fa1e14cf8b7bb') in 0.012217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Tilesets/Dungeon/grey_dirt_2_new.asset
+  artifactKey: Guid(31d1b32167d13a64eb28a8a36c2ea650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon/grey_dirt_2_new.asset using Guid(31d1b32167d13a64eb28a8a36c2ea650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '875978641ab90882b1d2f6d5d0cac890') in 0.066409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Tilesets/Dungeon/grey_dirt_4_new.asset
+  artifactKey: Guid(9271a1e2089bd5a4cb3d63892c3e3403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon/grey_dirt_4_new.asset using Guid(9271a1e2089bd5a4cb3d63892c3e3403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c6947070bd540e27cb4aa54ac760ad5') in 0.039587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Tilesets/Dungeon/statue_orb_guardian.asset
+  artifactKey: Guid(8d046878824a195459f015296e4af275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon/statue_orb_guardian.asset using Guid(8d046878824a195459f015296e4af275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c72dad54ebc20d4223c93fc720ccf426') in 0.025654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tilesets/Dungeon/cobble_blood_5_old.asset
+  artifactKey: Guid(d1f9c4def1213b144aa914789c791271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon/cobble_blood_5_old.asset using Guid(d1f9c4def1213b144aa914789c791271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9db4aeea3c48928eb1b5e86362b3ff5') in 0.013778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Tilesets/Dungeon/cobble_blood_2_old.asset
+  artifactKey: Guid(49c41096c5327c04ba05da460abd5e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon/cobble_blood_2_old.asset using Guid(49c41096c5327c04ba05da460abd5e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2378e79ed2ddd30b5063229a9331f16e') in 0.019811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Tilesets/Dungeon/grey_dirt_5_old.asset
+  artifactKey: Guid(16ff2cf8e2d15f14abd520ed73abc228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon/grey_dirt_5_old.asset using Guid(16ff2cf8e2d15f14abd520ed73abc228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3b58a37eb0830aa705d582bab998faa') in 0.011673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Tilesets/Dungeon/brick_gray_3.asset
+  artifactKey: Guid(5d671e0b8e679a1469eaecdd7b4823fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon/brick_gray_3.asset using Guid(5d671e0b8e679a1469eaecdd7b4823fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c4f9eb23b91d4d2834c932e3d3838ec') in 0.021860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon
+  artifactKey: Guid(7862eadbd89af1a49afe9ed19a1219c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon using Guid(7862eadbd89af1a49afe9ed19a1219c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69ad72678eaae476e54812cd1e5927f4') in 0.004383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Tilesets/Dungeon/stone_brick_4.asset
+  artifactKey: Guid(bc33b89ff2867ba42a753dd1a65ac792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon/stone_brick_4.asset using Guid(bc33b89ff2867ba42a753dd1a65ac792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66797e58e00ce8dcea85bd9f97225127') in 0.032631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Tilesets/Dungeon/lab-rock_2.asset
+  artifactKey: Guid(5ee84ef5541303f428eb008689e6a3cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon/lab-rock_2.asset using Guid(5ee84ef5541303f428eb008689e6a3cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11f7c0fd70c3b7a1cc58549595057627') in 0.012115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tilesets/Dungeon/lab-rock_3.asset
+  artifactKey: Guid(a6b79669554b2544499ffaa0687362ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon/lab-rock_3.asset using Guid(a6b79669554b2544499ffaa0687362ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a86562918ab21b56516fcb36593a76b') in 0.034695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tilesets/Dungeon/brick_gray_2.asset
+  artifactKey: Guid(c358b18694536f04b96a520bee0187ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon/brick_gray_2.asset using Guid(c358b18694536f04b96a520bee0187ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ad808e59f565860bf9d23c73225433d') in 0.057345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Tilesets/Dungeon/grey_dirt_1_old.asset
+  artifactKey: Guid(1165029c1e6c8bc40a7ab9432a6c7539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon/grey_dirt_1_old.asset using Guid(1165029c1e6c8bc40a7ab9432a6c7539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c10c98bef90539a183f097d8a9bef11') in 0.024459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Tilesets/Dungeon/statue_tengu.asset
+  artifactKey: Guid(e28b8505584c33443a4f9f68426c6608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilesets/Dungeon/statue_tengu.asset using Guid(e28b8505584c33443a4f9f68426c6608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c6cbf3120b69fc42d3d8bb0aa83a925') in 0.023830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.183730 seconds.
+  path: Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars
+  artifactKey: Guid(e5c25a3ac1946264f9ba9b7f0e3ea133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars using Guid(e5c25a3ac1946264f9ba9b7f0e3ea133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a36205888ece087f71997a642e653b0') in 0.005151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/altar_beogh.png
+  artifactKey: Guid(b5614b9372a727b4184af66ea7b59f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/altar_beogh.png using Guid(b5614b9372a727b4184af66ea7b59f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3371a64a6489a505e22bb1bdbac0138') in 0.260689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/altar_cheibriados_3.png
+  artifactKey: Guid(dcdae9f94d991a44782a12c816beaa36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/altar_cheibriados_3.png using Guid(dcdae9f94d991a44782a12c816beaa36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd198e08cb8e00384d8936bbe2b8d71d6') in 0.020383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/altar_cheibriados_9.png
+  artifactKey: Guid(39beea81a7420534bb3146a0b8bbf272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/altar_cheibriados_9.png using Guid(39beea81a7420534bb3146a0b8bbf272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88f12da5930708d51f112b03f91c3822') in 0.026187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/altar_makhleb_flame_5.png
+  artifactKey: Guid(af7dc4f943bd6314398b7a896eff9bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/altar_makhleb_flame_5.png using Guid(af7dc4f943bd6314398b7a896eff9bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8de5df3d347b3a4a5bea6184fed6fc76') in 0.039525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/altar_makhleb_flame_4.png
+  artifactKey: Guid(c66f3a406dd7e0e43accd9523fae262a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/altar_makhleb_flame_4.png using Guid(c66f3a406dd7e0e43accd9523fae262a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e6dd74bc243bc0be5b33aee279d7b64') in 0.035498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/altar_jiyva_8.png
+  artifactKey: Guid(fdc8c13ae058f9e49a27c1288aa5d319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/altar_jiyva_8.png using Guid(fdc8c13ae058f9e49a27c1288aa5d319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c44e922f4fc1ae1e056ccaa871f06b5e') in 0.022785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/altar_jiyva_7.png
+  artifactKey: Guid(581785bfd85252b4dbc377bfeab326cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/altar_jiyva_7.png using Guid(581785bfd85252b4dbc377bfeab326cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d030b0f0380d5010adbd81a5b86f11') in 0.033339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/altar_jiyva_6.png
+  artifactKey: Guid(cd5361ebf94e65446b0b1312937f0ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/altar_jiyva_6.png using Guid(cd5361ebf94e65446b0b1312937f0ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6577e38de69c8c71fced867a0e76859e') in 0.041901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/altar_cheibriados_8.png
+  artifactKey: Guid(514590d2d6dd589458464a8208119b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/altar_cheibriados_8.png using Guid(514590d2d6dd589458464a8208119b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1c78841db7b05d5016d21a56996a453') in 0.035733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/altar_makhleb_flame_2.png
+  artifactKey: Guid(7d097554a8f7d824b9d7a71bcb0c05bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/altar_makhleb_flame_2.png using Guid(7d097554a8f7d824b9d7a71bcb0c05bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc9ab7edbd5e0ec1303b78f0b2a0e5ef') in 0.019795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/altar_cheibriados.png
+  artifactKey: Guid(d950de4d309c7674e8fbcb2c76d95b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/altar_cheibriados.png using Guid(d950de4d309c7674e8fbcb2c76d95b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76afb8780af731e0700751067d1de4ac') in 0.026617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/altar_jiyva_3.png
+  artifactKey: Guid(d5312ec1665b1e84f8c46ac0b0ee064c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/altar_jiyva_3.png using Guid(d5312ec1665b1e84f8c46ac0b0ee064c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28ac1b7778a15e9f3cdbef7b40d54d16') in 0.039973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/altar_jiyva_11.png
+  artifactKey: Guid(f42854114edbb1943bb09e7f2827f17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/altar_jiyva_11.png using Guid(f42854114edbb1943bb09e7f2827f17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e5315d65e18b71dbbe9705ed0f1300e') in 0.018199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/altar_jiyva_2.png
+  artifactKey: Guid(8d2b6648cfdfecf438e0b2618bb85f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/altar_jiyva_2.png using Guid(8d2b6648cfdfecf438e0b2618bb85f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd97f1a3fc1ec0eef6354c20dedea85c4') in 0.023280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/altar_jiyva_9.png
+  artifactKey: Guid(fac5096a36b98624985c58a40fdbaedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/altar_jiyva_9.png using Guid(fac5096a36b98624985c58a40fdbaedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb2943c77bc8c3a577d165a95c9cf1cf') in 0.037495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/altar_cheibriados_10.png
+  artifactKey: Guid(5368bc4870661ef47af82d3dc76f7719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/altar_cheibriados_10.png using Guid(5368bc4870661ef47af82d3dc76f7719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3db50021d1c826ad60bd7b1a1e7b723') in 0.021587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/altar_xom_1.png
+  artifactKey: Guid(7689bbe70312fe74cb925a8b2d09557e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/altar_xom_1.png using Guid(7689bbe70312fe74cb925a8b2d09557e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8441248e1b180e8e286c87857b2582fb') in 0.028884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/altar_jiyva_4.png
+  artifactKey: Guid(5dde3df4ee93b70409a9fc6a3bcd715f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/altar_jiyva_4.png using Guid(5dde3df4ee93b70409a9fc6a3bcd715f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75f8248c6527ab004ef476962512cef7') in 0.034047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/altar_old.png
+  artifactKey: Guid(1a6dd18d720c2434399ad0e28fa6ca07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/altar_old.png using Guid(1a6dd18d720c2434399ad0e28fa6ca07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4576c2d96e392faacfc36f8d842541d5') in 0.038747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/altar_jiyva_0.png
+  artifactKey: Guid(b65db2b180efabc469a15ed7830278b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/altar_jiyva_0.png using Guid(b65db2b180efabc469a15ed7830278b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4225dd86523357aa972d72608aca9d64') in 0.041210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/altar_cheibriados_2.png
+  artifactKey: Guid(f3d91d069d0f2f645ae57606c4672530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/altar_cheibriados_2.png using Guid(f3d91d069d0f2f645ae57606c4672530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29634a13f6d12a4d060bef012bdff7a4') in 0.032597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.602077 seconds.
+  path: Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/altar_xom_2.png
+  artifactKey: Guid(dfd1d5d51163c1a448cf935aa24e2fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/altar_xom_2.png using Guid(dfd1d5d51163c1a448cf935aa24e2fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f000f3634105dca06a770b0acb7efd3') in 0.066624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/nemelex_1.png
+  artifactKey: Guid(b196b6cdc40145740b2cd75f454642f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/nemelex_1.png using Guid(b196b6cdc40145740b2cd75f454642f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '676338e305886ecc7f1cb796c647dbbc') in 0.030294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/shining_one.png
+  artifactKey: Guid(496235636e7ab534e8358deb3a71c072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/shining_one.png using Guid(496235636e7ab534e8358deb3a71c072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ede4242a77aec5d509c063223794db4') in 0.050117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/altar_xom_6.png
+  artifactKey: Guid(867b276aa3dd4424cb6d6374b31330a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/altar_xom_6.png using Guid(867b276aa3dd4424cb6d6374b31330a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28937a3ef96b8c06233ed29e3e186fe0') in 0.023174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/sif_muna.png
+  artifactKey: Guid(7391846b4bc61514ba4f8abcca5c5ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/sif_muna.png using Guid(7391846b4bc61514ba4f8abcca5c5ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be24ad3347878f153cac3128b12e44dd') in 0.041924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001151 seconds.
+  path: Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/vehumet_2.png
+  artifactKey: Guid(781c42d610ca0e047a3b3e58d35f90c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/vehumet_2.png using Guid(781c42d610ca0e047a3b3e58d35f90c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54d96044d4ae67b70dbcee4fac17b3eb') in 0.047036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/ru.png
+  artifactKey: Guid(7e545658bde52a54ebe6983cfb5a408c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/ru.png using Guid(7e545658bde52a54ebe6983cfb5a408c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '653b41d4455e2cf8e675181203dabc59') in 0.041853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/altar_xom_5.png
+  artifactKey: Guid(9b293cecca0851343a67cc055103681d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/altar_xom_5.png using Guid(9b293cecca0851343a67cc055103681d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41f6337c505b825646a331f8741643ef') in 0.046047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/dithmenos_3.png
+  artifactKey: Guid(c455607cded10f74099ec8198468ebb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/dithmenos_3.png using Guid(c455607cded10f74099ec8198468ebb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80ad95b4e06d04b5d5a5c00bb0143b2e') in 0.033771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/yredelemnul.png
+  artifactKey: Guid(f442f4dc9162b0b42b2f96b98e8e83cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/yredelemnul.png using Guid(f442f4dc9162b0b42b2f96b98e8e83cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94986fd1ba71af52748f1fe095ebdf51') in 0.033338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/lugonu.png
+  artifactKey: Guid(cb58d5afbb7302648b5763bbf560ac68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/lugonu.png using Guid(cb58d5afbb7302648b5763bbf560ac68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fff4984dd43fa56adf96bdc248b6170') in 0.023946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/unknown.png
+  artifactKey: Guid(a52c5d1e7c8fe4440b46e84b08f58a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/unknown.png using Guid(a52c5d1e7c8fe4440b46e84b08f58a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e57c0d77f62d92935949050025b264fc') in 0.026221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/altar_xom_4.png
+  artifactKey: Guid(6515a08d944c09b4aa54cc1c5feab0bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/altar_xom_4.png using Guid(6515a08d944c09b4aa54cc1c5feab0bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48e94ad25eeec534376f29eb82ad9a6b') in 0.037923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/qazlal_1.png
+  artifactKey: Guid(6794de09474b7b94e95448132aac2022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/qazlal_1.png using Guid(6794de09474b7b94e95448132aac2022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a9cf2322e21aaeb509f17466b069a96') in 0.032261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/qazlal_2.png
+  artifactKey: Guid(5d02b5d146de1274fb8cd561aa6540dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/qazlal_2.png using Guid(5d02b5d146de1274fb8cd561aa6540dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80a75cf76afe73027458b470b0a1da6e') in 0.021554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/ashenzari.png
+  artifactKey: Guid(94b065449545ff842a3ec799ddc8d29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/ashenzari.png using Guid(94b065449545ff842a3ec799ddc8d29d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0c34d4ba7f7d5ef765399c507b7d427') in 0.026509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/dithmenos.png
+  artifactKey: Guid(3c7c31f23084bfc4c8342e247e7d41c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/altars/dithmenos.png using Guid(3c7c31f23084bfc4c8342e247e7d41c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '513ef2e37df3fc67cb0df62f94526680') in 0.043303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.048080 seconds.
+  path: Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/doors
+  artifactKey: Guid(9e4d8d08fe7edfd4cb6d85bd508011ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/doors using Guid(9e4d8d08fe7edfd4cb6d85bd508011ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '449ca404590a6274fef62c38f0d65dee') in 0.005072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/doors/fleshy_orifice_closed.png
+  artifactKey: Guid(9c3ee8a6a41823c48970bc469aa925fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/doors/fleshy_orifice_closed.png using Guid(9c3ee8a6a41823c48970bc469aa925fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1b8e8c4bba302da1f26d02302093930') in 0.070626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/doors/gate_open_middle.png
+  artifactKey: Guid(ef9e772419313b44cbae805dee595903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/doors/gate_open_middle.png using Guid(ef9e772419313b44cbae805dee595903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a8b42be68e761724516b779b5f19cfd') in 0.031117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/doors/gate_open_right.png
+  artifactKey: Guid(4043ca41b5210e74c9cdd7dd9478c816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/doors/gate_open_right.png using Guid(4043ca41b5210e74c9cdd7dd9478c816) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0bf810165b1f042d34e92b47aa2091a') in 0.034447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/doors/vgate_sealed_down.png
+  artifactKey: Guid(fbca5edfe8f8d384d83aa576bc84c790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/doors/vgate_sealed_down.png using Guid(fbca5edfe8f8d384d83aa576bc84c790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '185ad9539241966f918cb2e6a7b24589') in 0.021481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/doors/vgate_runed_down.png
+  artifactKey: Guid(daa1d5f3c03838f47bdc56d99c03bb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/doors/vgate_runed_down.png using Guid(daa1d5f3c03838f47bdc56d99c03bb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d28e3fd4c6a3882377f33e98a03514') in 0.035896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/doors/vgate_runed_middle.png
+  artifactKey: Guid(83ee59b90d7030947bc806b29e6614dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/doors/vgate_runed_middle.png using Guid(83ee59b90d7030947bc806b29e6614dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62ebaab3b423c23c696c116fc1658a87') in 0.019862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/doors/gate_open_left.png
+  artifactKey: Guid(a42d00f5e66ae5842b2bc112a475bedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/doors/gate_open_left.png using Guid(a42d00f5e66ae5842b2bc112a475bedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dd5d9a8eb1b893f578387836c8bcfd9') in 0.021951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/doors/gate_runed_right.png
+  artifactKey: Guid(ea9564f90e234df40810e3fa3740cde8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/doors/gate_runed_right.png using Guid(ea9564f90e234df40810e3fa3740cde8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6085860787e729d1833a44bf1658f01e') in 0.040472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/doors/detected_secret_door.png
+  artifactKey: Guid(963bf939c97c7ad4fa44673367891f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/doors/detected_secret_door.png using Guid(963bf939c97c7ad4fa44673367891f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '480703e3c36b84fe80fe516748dce545') in 0.018261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/doors/runed_door.png
+  artifactKey: Guid(8344ca35764de124f9ec0c6270265317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/doors/runed_door.png using Guid(8344ca35764de124f9ec0c6270265317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33716e20ca317595d091c6997b868cdb') in 0.023868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/doors/gate_runed_left.png
+  artifactKey: Guid(db7f0243e7cc5b8439f86c4026c5800c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/doors/gate_runed_left.png using Guid(db7f0243e7cc5b8439f86c4026c5800c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db53e20a4493abd6d88af8df88936750') in 0.040668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/doors/gate_runed_middle.png
+  artifactKey: Guid(5f83f9cd313311246b75610075523941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/doors/gate_runed_middle.png using Guid(5f83f9cd313311246b75610075523941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b803fb7110b709505d8e1a1fe8e4f514') in 0.029569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/doors/gate_closed_middle.png
+  artifactKey: Guid(a5c006241b6a8204fa40c7698e7104b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/doors/gate_closed_middle.png using Guid(a5c006241b6a8204fa40c7698e7104b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46c538a9a4604bdf599eb88aa177cf71') in 0.023866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/doors/vgate_closed_down.png
+  artifactKey: Guid(ce1dd05d21220014087ca4912bccb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/doors/vgate_closed_down.png using Guid(ce1dd05d21220014087ca4912bccb177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '201a51bd49e5470b7c4364ce0ef4c694') in 0.026697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/doors/vgate_sealed_up.png
+  artifactKey: Guid(65b04ae0dd226414681618a6152eb77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/doors/vgate_sealed_up.png using Guid(65b04ae0dd226414681618a6152eb77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13df6cd9241f5f601e00ddb2b8c97f3b') in 0.035246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.963313 seconds.
+  path: Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/floor
+  artifactKey: Guid(783862eae679cb44daa63ca565ede7d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/floor using Guid(783862eae679cb44daa63ca565ede7d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bebc3f294ab14998443f4cba5bf5c4eb') in 0.003418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/floor/cage_2.png
+  artifactKey: Guid(b17e1673ab3da7744b0934967f9c5e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/floor/cage_2.png using Guid(b17e1673ab3da7744b0934967f9c5e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa51e76faced5240f4f303d5469fd747') in 0.071496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/floor/cage_4.png
+  artifactKey: Guid(ce60ae3e1941cfe42bb25cbb81f0fb6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Crawl Stone Soup Full/dungeon/floor/cage_4.png using Guid(ce60ae3e1941cfe42bb25cbb81f0fb6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7af8c536a1b687db0dc72c69bb9142d') in 0.018631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.068786 seconds.
+  path: Assets/Sprites/Dungeon Other Asset/PartsSpriteSheetVersion1
+  artifactKey: Guid(6688f5ee9d28c664495705c75cbcf416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Other Asset/PartsSpriteSheetVersion1 using Guid(6688f5ee9d28c664495705c75cbcf416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72a977cfad8281e225a5293cfe1bb920') in 0.013914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.281098 seconds.
+  path: Assets/Sprites/Dungeon Other Asset/PartsSpriteSheetVersion1/PartsSpriteSheetVersion1
+  artifactKey: Guid(8b4263df527412d4fac136048545fca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Other Asset/PartsSpriteSheetVersion1/PartsSpriteSheetVersion1 using Guid(8b4263df527412d4fac136048545fca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '797ad181be38a2ad14ed0e0a5d1b1329') in 0.015101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.016866 seconds.
+  path: Assets/Sprites/Dungeon Other Asset/PartsSpriteSheetVersion1/PartsSpriteSheetVersion1/PartsForSheet
+  artifactKey: Guid(817bb720912c5dd4092a974f5e47e42f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Dungeon Other Asset/PartsSpriteSheetVersion1/PartsSpriteSheetVersion1/PartsForSheet using Guid(817bb720912c5dd4092a974f5e47e42f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd44866a3ee4e349952cee50ed6fc59f') in 0.005115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 780.048719 seconds.
+  path: Assets/Scripts/EnemyScript.cs
+  artifactKey: Guid(186c5a8e6ff3353429f250ee3ade1e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EnemyScript.cs using Guid(186c5a8e6ff3353429f250ee3ade1e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b69efca15690ba60dd399b5ec15efa6') in 0.024017 seconds 
