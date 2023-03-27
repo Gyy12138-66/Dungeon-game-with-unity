@@ -10,6 +10,8 @@ public class CameraControllor : MonoBehaviour
     public float speed;//相机移动速度
 
     public Transform target;//目标坐标
+
+    
     
     // Start is called before the first frame update
     private void Awake()
@@ -28,6 +30,7 @@ public class CameraControllor : MonoBehaviour
     public void ChangeTarget(Transform newTarget)//函数方法在Room中判断碰撞进入后调用
     {
         target = newTarget;
+        
     }
 
 }

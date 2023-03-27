@@ -22,6 +22,11 @@ public class DoorController : MonoBehaviour
                 }
                 else
                 {
+                    Collider playerCollider = other.GetComponent<Collider>();
+                    if (playerCollider != null)
+                    {
+                        Physics.IgnoreCollision(playerCollider, GetComponent<Collider>());
+                    }
                     // 如果任务未完成，则禁止玩家通过门
                     Debug.Log("门已上锁，需要完成任务才能通过");
                 }

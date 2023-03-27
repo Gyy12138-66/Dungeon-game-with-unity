@@ -16,6 +16,8 @@ public class Room : MonoBehaviour
 
     public int doorNumber;//当前房间的门的数量/入口数量
 
+    private Key key; //调用key脚本中的开门关门
+
     void Start()
     {
         doorLeft.SetActive(roomLeft);
@@ -47,6 +49,7 @@ public class Room : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             CameraControllor.instance.ChangeTarget(transform);
+            
         }
     }
 }
