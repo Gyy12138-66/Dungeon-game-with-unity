@@ -40,6 +40,6 @@ public class PlayerControllor : MonoBehaviour
 
     void SwitchAnim()
     {
-        anim.SetFloat("speed", movement.magnitude);
+        anim.SetFloat("speed", movement.magnitude + 1.0);
     }
 }
