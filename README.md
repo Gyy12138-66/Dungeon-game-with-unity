@@ -2,7 +2,9 @@
 这个branch主要是关于Main-Menu，有一个核心一个特色。
 主要文件是MainMenu.unity和Equipment.unity，这两个文件就像是前端的两个界面。游戏关卡是由界面跳转到另一个文件即可开始游戏
   
-跳转的媒介是像前端一样建立一个button，需要一个c语言脚本帮助跳转：Menu.cs 可以在b站中搜索一下怎么制作主界面。以帮助你更好的驱动Menu.cs文件。在unity中驱动完成后，只需要填写游戏文件的名称，在点击button的时候就可以完成跳转
+跳转的媒介是像前端一样建立一个button，需要一个c语言脚本帮助跳转：Menu.cs 可以在b站中搜索一下怎么制作主界面。以帮助你更好的驱动Menu.cs文件。在unity中驱动完成后，只需要填写游戏文件的名称，在点击button的时候就可以完成跳转。
+
+Equipment.unity计划是作为可以选择英雄的界面，我找了两张图片作为不同英雄（两张HeroProfile的jpg文件）。MainMenu作为开始界面，通过点击开始button到Equipment.unity,选择英雄后在跳转到游戏界面。
 
 一个特色是在主界面显示gif图片，我找了一个地牢游戏的logo，是一张gif图，在主界面中显示为燃烧的火把，源文件为test.gif
 但unity本身并不支持输出gif图片所以我们需要一个脚本来输出：LoadingGif.cs, 其原理是抓取gif每一帧，并且输出。驱动LoadingGif.cs的方法和驱动Menu.cs的方法相似。需要用到unity的一个工具：Unigif网上搜索可以下载。需要将其放到项目文件的Assets文件夹里才能调用。过程有些复杂，如有问题请联系微信：953190868
